@@ -1,10 +1,13 @@
  Stanford University
+ 
  Cryptography I
 
  Week 3
+ 
  Message Integrity and HMAC
 
  Instructions
+ 
  Suppose a web site hosts large video file F that anyone can download. 
  Browsers who download the file need to make sure the file is authentic before displaying the content to the user. 
  One approach is to have the web site hash the contents of F using a collision resistant hash and then distribute the resulting short hash value h=H(F) to users via some authenticated channel (later on we will use digital signatures for this). 
