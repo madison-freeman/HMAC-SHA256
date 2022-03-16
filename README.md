@@ -70,7 +70,7 @@ Video image data for in mp4.download file format, downloaded from [Stanford Univ
 
 ### Dependencies <a name="dependencies"></a>
 * Python 3.*
-* Libraries: Crypto, binascii
+* Libraries: pycryptodome, binascii
 
 ## Solution <a name="solution"></a>
 
@@ -119,6 +119,7 @@ We assume H to be a cryptographic
 
 * 5b96aece304a1422224f9a41b228416028f9ba26b0d1058f400200f06a589949
 
+![HMAC-output](https://raw.githubusercontent.com/madison-freeman/HMAC-SHA256/main/HMAC.PNG)
  
 ## Author<a name="author"></a>
 * [Madison F.](https://github.com/madison-freeman)
